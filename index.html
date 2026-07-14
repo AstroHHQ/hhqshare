@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>摄影作品集</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;600&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <h1 class="site-title">摄影作品集</h1>
+            <p class="site-subtitle">Photography Portfolio</p>
+        </div>
+    </header>
+
+    <nav class="nav">
+        <div class="container">
+            <ul class="nav-list">
+                <li><a href="#all" class="nav-link active" data-filter="all">全部</a></li>
+                <li><a href="#star" class="nav-link" data-filter="star">星空</a></li>
+                <li><a href="#architecture" class="nav-link" data-filter="architecture">建筑</a></li>
+                <li><a href="#humanity" class="nav-link" data-filter="humanity">人文</a></li>
+                <li><a href="#bw" class="nav-link" data-filter="bw">黑白</a></li>
+                <li><a href="#portrait" class="nav-link" data-filter="portrait">人像</a></li>
+                <li><a href="#landscape" class="nav-link" data-filter="landscape">风光</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main class="gallery">
+        <div class="container">
+            <div class="gallery-grid" id="gallery">
+                <!-- 照片会通过 JavaScript 动态加载 -->
+            </div>
+        </div>
+    </main>
+
+    <!-- 照片查看器 -->
+    <div class="lightbox" id="lightbox">
+        <button class="lightbox-close" id="lightbox-close">&times;</button>
+        <img src="" alt="" class="lightbox-image" id="lightbox-image">
+        <div class="lightbox-nav">
+            <button class="lightbox-prev" id="lightbox-prev">&#8249;</button>
+            <button class="lightbox-next" id="lightbox-next">&#8250;</button>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 摄影作品集. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
