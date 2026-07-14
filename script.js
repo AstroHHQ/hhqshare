@@ -1,34 +1,19 @@
 // 照片数据 - 请在这里添加你的照片信息
 const photos = [
     // 星空
-    { id: 1, src: 'images/star-1.jpg', title: '银河拱桥', category: 'star' },
-    { id: 2, src: 'images/star-2.jpg', title: '北极星轨迹', category: 'star' },
-    { id: 3, src: 'images/star-3.jpg', title: '星野风光', category: 'star' },
-    
-    // 建筑
-    { id: 4, src: 'images/architecture-1.jpg', title: '城市天际线', category: 'architecture' },
-    { id: 5, src: 'images/architecture-2.jpg', title: '古典建筑', category: 'architecture' },
-    { id: 6, src: 'images/architecture-3.jpg', title: '现代几何', category: 'architecture' },
+    { id: 1, src: 'images/star-1.jpg', title: '星空', category: 'star' },
     
     // 人文
-    { id: 7, src: 'images/humanity-1.jpg', title: '市井生活', category: 'humanity' },
-    { id: 8, src: 'images/humanity-2.jpg', title: '街头瞬间', category: 'humanity' },
-    { id: 9, src: 'images/humanity-3.jpg', title: '人物特写', category: 'humanity' },
+    { id: 2, src: 'images/humanity-2.jpg', title: '人文', category: 'humanity' },
     
     // 黑白
-    { id: 10, src: 'images/bw-1.jpg', title: '光影交错', category: 'bw' },
-    { id: 11, src: 'images/bw-2.jpg', title: '极简构图', category: 'bw' },
-    { id: 12, src: 'images/bw-3.jpg', title: '纹理质感', category: 'bw' },
+    { id: 3, src: 'images/bw-1.jpg', title: '黑白', category: 'bw' },
     
     // 人像
-    { id: 13, src: 'images/portrait-1.jpg', title: '自然光人像', category: 'portrait' },
-    { id: 14, src: 'images/portrait-2.jpg', title: '环境人像', category: 'portrait' },
-    { id: 15, src: 'images/portrait-3.jpg', title: '情绪人像', category: 'portrait' },
+    { id: 4, src: 'images/portrait-1.jpg', title: '人像', category: 'portrait' },
     
     // 风光
-    { id: 16, src: 'images/landscape-1.jpg', title: '山川湖海', category: 'landscape' },
-    { id: 17, src: 'images/landscape-2.jpg', title: '日出日落', category: 'landscape' },
-    { id: 18, src: 'images/landscape-3.jpg', title: '四季风光', category: 'landscape' },
+    { id: 5, src: 'images/landscape.jpg', title: '风光', category: 'landscape' },
 ];
 
 // 分类标签映射
